@@ -19,11 +19,11 @@
 .ListDiv li :first-child {
     padding: 10px 0 0 10px;
 }
-.ListDiv ol li{
+.ListDiv li{
     display: flex;
     align-items: center;
 }
-.ListDiv ul, .ListDiv ol {
+.ListDiv ul{
     list-style: none;
 }
 .Listh3{
@@ -34,14 +34,17 @@
 
 .LogoDiv{
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: inline-block;
+    border: 1px solid black;
     border-radius: 50%;
     text-align: center;
     font-weight: 450;
     font-size: 25px;
     margin-right: 15px;
+    background-position: center center;
+    background-size: 100% 100%;
 }
 .LogoDiv Span:first-child{
     padding: 5px;
