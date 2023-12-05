@@ -1,0 +1,36 @@
+.sudokuParent {
+    margin: 20px;
+}
+
+.sudokuDiv {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    float: left;
+    text-align: center;
+}
+
+.sudokuDiv:nth-child(9n+1) {
+    clear: left;
+}
+
+.sudokuDiv:nth-child(-n+9) {
+    border-top: 4px solid black;
+}
+
+.sudokuDiv:nth-child(3n) {
+    border-right: 4px solid black;
+}
+
+.sudokuDiv:nth-last-child(-n+9),
+.sudokuDiv:nth-child(n+19):not(:nth-child(n+28)),
+.sudokuDiv:nth-child(n+46):not(:nth-child(n+55)) {
+    border-bottom: 4px solid black;
+}
+
+.sudokuDiv:nth-child(9n+1) {
+    border-left: 4px solid black;
+}
+.NewBackground{
+    background: rgba(75, 202, 255, 0.4);
+}
